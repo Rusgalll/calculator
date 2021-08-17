@@ -1,4 +1,4 @@
-"use strict";/*
+"use strict";
 let isNumber = function (n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
 };
@@ -155,7 +155,7 @@ appData.getBudget();
 appData.getTargetMonth();
 appData.getStatusIncome();
 appData.getInfoDeposit();
-*/
+
 
 const calculate = document.querySelector('#start');
 const plus1 = document.getElementsByTagName('button')[0];
@@ -181,5 +181,3 @@ const periodSelect = document.querySelector('input[class="period-select"]');
 const monthResult = document.querySelector('input[class="budget_month-value"]');
 const cancel = document.querySelector('#cancel');
 
-console.log(targerAmount);
-console.log(cancel);
